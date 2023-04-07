@@ -7,4 +7,5 @@ chat_id = 351730666 # Ваш chat ID, не меняйте название пе�
 
 
 def solution(x: np.array) -> float:
-    return np.mean((x) / 10)
+    a = x / 10
+    return np.mean(a) + 34
